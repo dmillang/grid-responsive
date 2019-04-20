@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>CSS LAYOUT</title>
+	<style>
+
+		.wrapper{
+			background-color: #eee;
+			display: grid;
+
+			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+			grid-template-rows: 100px 100px;
+			width: 100%;
+			grid-auto-rows: 100px;
+		}
+
+		.item--1 {
+			background-color: #D6A4A4;
+		}
+
+		.item--2 {
+			background-color: #005AA7;
+		}
+
+		.item--3 {
+			background-color: #11998e;
+		}
+
+		.item--4 {
+			background-color: #ffb347;
+		}
+
+		.item--5 {
+			background-color: #FF5F6D;
+		}
+
+		.item--6 {
+			background-color: #333333;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="item--1">item 1</div>
+		<div class="item--2">item 2</div>
+		<div class="item--3">item 3</div>
+		<div class="item--4">item 4</div>
+		<div class="item--5">item 5</div>
+		<div class="item--6">item 6</div>
+	</div>
+	
+</body>
+</html>
